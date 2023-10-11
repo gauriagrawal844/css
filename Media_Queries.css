@@ -1,0 +1,41 @@
+div{
+    height:100px;
+    width:100px;
+    background-color: pink;
+    border:2px solid red;
+}
+@media(max-width:600px){
+    h1{
+        text-align: center;
+        color:rgba(80, 19, 92, 0.728)
+    }
+    div{
+        background-color: plum;
+        border:2px solid purple;
+    }
+
+}
+/* @media(width:600px)*/
+@media(min-width:600px) and (max-width:700px)
+{ 
+    h1{
+        text-align: center;
+        color:rgba(43, 112, 105, 0.836)
+    }
+    div{
+        background-color: rgb(100, 231, 211);
+        border:2px solid rgb(33, 103, 103);
+    }
+
+}
+@media(min-width:700px){
+    h1{
+        text-align: center;
+        color:rgba(27, 19, 129, 0.644)
+    }
+    div{
+        background-color: rgb(160, 160, 196);
+        border:2px solid rgb(8, 8, 78);
+    }
+
+}
