@@ -1,0 +1,36 @@
+#signal{
+    height:283px;
+    width:100px;
+    background-color:black;
+    margin:50px;
+    border-radius:5%;
+
+}
+#stand{
+    height:200px;
+    width:20px;
+    background-color: black;
+    margin-left:40px;
+}
+#stop{
+    background-color:red;
+    height:50px;
+    width:50px;
+    margin:25px;
+    
+    
+}
+#ready{
+    background-color:yellow;
+    height:50px;
+    width:50px;
+    margin-top:25px;
+    margin:25px;
+    
+}
+#go{
+    background-color:green;
+    height:50px;
+    width:50px;
+    margin:25px;
+}
