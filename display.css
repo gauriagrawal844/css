@@ -1,0 +1,22 @@
+div{
+    width:100px;
+    height:100px;
+    padding:25px;
+    margin:25px;
+    /* display:inline; */
+    display:inline-block;
+}
+#div1{
+    background-color: red;
+    background-color:rgba(0, 0, 174,0.5)
+}
+#div2{
+    background-color: green;
+    background-color:rgba(0, 0, 174,0.75)
+    /* display:none; */
+    /* visibility:hidden; */
+}
+#div3{
+    background-color: blue;
+    background-color:rgba(0, 0, 174,1)
+}
