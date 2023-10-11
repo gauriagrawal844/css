@@ -1,0 +1,22 @@
+h1{
+    color:rgb(176, 86, 101);
+}
+p{
+    color:blueviolet;
+}
+button{
+    color:brown;
+    background-color:darkseagreen;
+}
+body{
+    background-color:bisque;
+}
+h2{
+    color:#ff0911;
+}
+#headingOne{
+    color:purple;
+}
+.myclass{
+    color:chocolate
+}
