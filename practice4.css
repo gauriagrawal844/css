@@ -1,0 +1,46 @@
+
+*{
+    padding:0;
+    margin:0;
+    color:white;
+} 
+#navbar{
+    height:60px;
+    background-color: #0f1111;
+    border:2px solid white;
+
+}
+#search{
+    background-color:#f08804;
+}
+#logo{
+    color:#f08804;
+    font-size: 25px;
+}
+a{
+    margin-right:150px;
+    text-decoration:none;
+}
+#content{
+    height:495px;
+}
+
+.contentbox{
+    height:100px;
+    width:100px;
+    color:black;
+    border:2px solid black;
+    display:inline-block;
+    text-align:center;
+   
+} 
+button{
+        background-color: rgb(237, 221, 221);
+        color:rgb(0, 0, 0);
+        text-align:center;
+    }
+footer{
+    background-color:#0f1111;
+    height:50px;
+    text-align:center;
+}
