@@ -1,0 +1,45 @@
+*{
+    background-color:rgb(246, 228, 228);
+}
+div{
+    height:100px;
+    width:100px;
+    background-color:pink;
+    border:5px double red;
+    border-radius:50%;
+    text-align:center;
+    margin-top:25px;
+}
+h1{
+    height:50px;
+    width:130px;
+    background-color:pink;
+    text-decoration:red double underline;
+    /* border-width:5px;
+    border-style:dotted;
+    border-color:red; */
+    border:5px dotted red;
+    border-radius:20px;
+    text-align:center;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:25px;
+    padding-bottom:25px;
+
+
+}
+p{
+    height:80px;
+    width:800px;
+    background-color:pink;
+    font-family:'Courier New', Courier, monospace;
+}
+button{
+    height:30px;
+    width:80px;
+    background-color:pink;
+    color:red;
+    text-decoration:red solid underline;
+
+
+}
