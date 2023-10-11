@@ -1,0 +1,9 @@
+div{
+    height:150px;
+    width:150px;
+    background-image: url("deer_photo.jpg");
+    background-size:cover;
+    position:fixed; 
+    right:0;
+    top:50px;
+}
