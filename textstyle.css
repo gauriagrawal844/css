@@ -1,0 +1,54 @@
+#h1{
+    font-weight:lighter;
+    font-weight:100;
+}
+#h2{
+    font-weight:normal;
+    font-weight:300;
+}
+#h3{
+    font-weight:bold;
+    font-weight:600;
+}
+#h4{
+    font-weight:bolder;
+    font-weight:900;
+}
+h1{
+    text-align:left;
+    /* text-decoration:red underline;
+    text-decoration:red wavy underline;
+    text-decoration:red solid underline; 
+    text-decoration:red dotted underline;
+    text-decoration:red dashed underline;*/
+    text-decoration:red double underline;
+}
+#paragraph1{
+    text-align:left;
+    font-family:'Courier New', Courier, monospace;
+    font-size:25px;
+    text-transform:lowercase;
+}
+h2{
+    text-align:right;
+    text-decoration:blue wavy overline;
+    text-transform:none;
+}
+#paragraph2{
+    text-align:right;
+    font-family:cursive;
+    font-size:10px;
+    line-height:20px;
+    text-transform:uppercase;
+}
+h3{
+    text-align:center;
+    text-decoration:line-through;
+}
+#paragraph3{
+    text-align:center;
+    text-transform:Capitalize;
+}
+a{
+    text-decoration:none;
+}
