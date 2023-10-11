@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="surveyform.css">
+</head>
+
+<body>
+    <header id="heading">
+        <h1>Survey Form</h1>
+    </header>
+    <section>
+        <div class="content">
+            <div id="description">
+                <p><br><br>Let us know we can improve freeCodeCamp</p>
+            </div>
+            <form id="survey">
+                <div class="row">
+                    <div class="lable">
+                        <label>Name: <input class="input"type="text" name="Name" placeholder="Enter Your Name"></label>
+                    </div>
+                    <!-- <div class="input">
+                        
+                    </div> -->
+                </div><br>
+                <div class="row">
+                    <div class="lable">
+                        <label>Email: <input class="input"type="Email" name="Email" placeholder="Enter Your Email"></label>
+                    </div>
+                    <!-- <div class="input">
+                       
+                    </div> -->
+                </div><br>
+                <div class="row">
+                    <div class="label">
+                        <label>Age: <input class="input" type="number" name="Age" placeholder="Age">
+                            <!-- id="number" min="10" max="99" -->
+                        </label>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="label">
+                        <label>Which option best describes your current role?  <select>
+                            <option>Student</option>
+                            <option>Job holder</option>
+                            <option>BusinessMan</option>
+                        </select></label>
+                    </div>
+                    <!-- div class="select">
+                      
+                    </div>< -->
+                </div><br>
+                <div class="row">
+                    <div class="label">
+                        <label>How likely is that you would recommend freeCodeCamp to a friend?
+                            <input type="radio" name="suggest" value="Definitely"><label>Definitely</label>
+                            <br>
+                            <input type="radio" name="suggest" value="Maybe"><label>Maybe</label>
+                            <br>
+                            <input type="radio" name="suggest" value="Not sure"><label>Not sure</label>
+                        </label>
+                    </div>
+                    <!-- <div class="input">
+                     
+                    </div> -->
+                </div><br>
+                <div class="row">
+                    <div class="label">
+                        <label>What do you like most in FCC
+                            <select>
+                                <option>Select an option</option>
+                                <option>Challenges</option>
+                                <option>Project</option>
+                                <option>Communtiy</option>
+                                <option>Open Source</option>
+                            </select>
+                        </label>
+                    </div>
+                    <!-- <div class="select">
+                        
+                    </div> -->
+                </div><br>
+                <div class="row">
+                    <div class="label">
+                        <label>Things that should be improve in the future (Check all that apply)
+                            <input type="radio" name="suggest" value="Front-end Projects" ><label>Front-end Projects</label>
+                            <br>
+                            <input type="radio" name="suggest" value="Back-end Projects"><label>Back-end Projects</label>
+                            <br>
+                            <input type="radio" name="suggest" value="Data Visualization"><label>Data Visualization</label>
+                        </label>
+                    </div>
+                    <!-- <div class="input">
+                       
+                    </div> -->
+                </div><br>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
